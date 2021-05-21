@@ -1,0 +1,78 @@
+body{		
+	padding: 0;
+	margin: 10px;
+	background: rgb(247,249,251); 
+	background: -moz-linear-gradient(45deg, rgba(247,249,251,1) 0%, rgba(224,228,230,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg,  rgba(247,249,251,1) 0%,rgba(224,228,230,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg,  rgba(247,249,251,1) 0%,rgba(224,228,230,.6) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c00ff', endColorstr='#4c00ff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	font-size:18px
+}
+
+form{width:780px;}
+
+fieldset{margin:40px auto}
+
+h1{
+	text-align: center;
+	border: 2px groove #0B0B0B;
+	font-family: Tahoma;
+	text-transform : uppercase;
+	font-size: 35px;
+	padding: 10px;
+	color: #FFF;
+	background: #4c00ff; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  #4c00ff 0%, #4c00f1 44%, #4c00ff 100%); /* FF3.6-15 */
+
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c00ff', endColorstr='#4c00ff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	text-shadow: 1px 2px 2px #030303
+}
+			
+label{
+	padding: 0;
+	display: block;
+	padding :10px;
+	font-family: tahoma;
+	border: 4px
+}
+			
+input[type="text"],
+input[type="email"]{
+	width: 350px;
+	height: 30px
+}
+
+input[type="radio"]{
+	display: inline;
+	color: #000;
+}
+
+input[type="submit"],
+input[type="reset"]
+{
+	background: none;
+	padding: 5px 15px;
+	border: 2px solid #4c00ff;
+	font-weight: bold
+}
+select{
+	width: 200px;
+	height: 20px
+}
+.content{
+  width:780px;
+  margin:auto
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }

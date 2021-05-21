@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BCQR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <h1>Datos Informe</h1>
+          <form name="contact" method="POST" data-netlify="true">
+              <fieldset >
+                  <legend>Informacióm Personal :</legend>
+  
+  
+                  <label>Nombres: </label>
+                  <input type="text" name="f-name" required>
+  
+                  <label>Apellidos: </label>
+                  <input type="text" name="l-name" required>
+  
+                  <label>Cedula: </label>
+                  <input type="text" name="id" required>
+                  
+                  <label>Direccion: </label>
+                  <input type="text" name="direc" required>
+
+                  <label>Edad: </label>
+                  <input type="text" name="Edad" required>
+
+                  <label>Telefono: </label>
+                  <input type="text" name="tlf" required>
+
+                  <label>Email: </label>
+                  <input type="email" name="email" required>
+  
+                  <label>Resultado PCR: </label>
+                      <select>
+                          <option value="positivo">Positivo</option>
+                          <option value="negativo">Negativo</option>
+                      </select>
+  
+                  <label>Fecha: </label>
+                  <input type="Date" name="Date" required>
+              </fieldset>
+              
+              <p>
+                <button type="submit">Enviar</button>
+              </p>
+
+              </form>
+      </div>
+
+</body>
+</html>
