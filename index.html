@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clinicas Barriuso - Registrar Para Generar Reporte</title>
+    <title>Pruebas Rápidas</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
     <div class="title">Reporte Prueba</div>
     <div class="content">
-        <form name="contact" method="POST" data-netlify="true">
+        <form name="input" method="POST" data-netlify="true">
         <div class="user-details">
           <div class="input-box">
             <span class="details">Nombres</span>
@@ -32,24 +32,24 @@
 
           <div class="input-box">
             <span class="details"><label>Fecha Prueba: </label>
-              <input type="Date" name="FechaPrueba" required></span>
+              <input type="Date" name="fecha_prueba" required></span>
           </div>
           <div class="input-box">
             <span class="details"><label>Fecha Nacimiento: </label>
-              <input type="Date" name="FechaNacimiento" required></span>
+              <input type="Date" name="fecha_nacimiento" required></span>
           </div>
           <div class="input-box">
             <span class="details">Cédula</span>
-            <input type="text" name="CID" placeholder="C.I ó Pasaporte" required>
+            <input type="text" name="cid" placeholder="C.I ó Pasaporte" required>
           </div>
           <div class="input-box">
-            <span class="details">Otros<i>(opcional)</i></span>
-            <input type="text" name="Adicionales" placeholder="Observaciones Adicionales">
+            <span class="details">Dirección<i>(completa)</i></span>
+            <input type="text" name="direccion" placeholder="Dirección...">
           </div>
         </div>
         <div class="gender-details">
-          <input type="radio" name="ResultadoNegativo" id="dot-2">
-          <input type="radio" name="ResultadoPositivo" id="dot-3">
+          <input type="radio" name="resultado_negativo" id="dot-2">
+          <input type="radio" name="resultado_positivo" id="dot-3">
           <span class="gender-title">Resultado:</span>
           <div class="category">
           <label for="dot-2">
